@@ -1,0 +1,108 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkorange;
+    align-items: center;
+    padding: 30px 10%;
+    box-sizing: border-box;
+}
+
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: rgb(0, 117, 0);
+    text-transform: uppercase;
+    }
+
+
+    .Request-Estimate__button{
+      margin-left: 550px;
+    }
+
+    .Request-Estimate__button{
+        padding: 9px 25px;
+        background-color: red;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+    }
+
+    .Special-offers__button{
+        padding: 9px 25px;
+        background-color: red;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+    }
+
+
+
+.buisness_info{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+.wrapper {
+  display: inline-block;
+  position: relative;
+  left: 32%;
+  margin-left: 50px;
+}
+
+.footer_copyright{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#footer_navs{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
+    list-style: none;
+}
+
+li, a {
+text-decoration: none;
+color: black;
+}
+
+footer{
+    bottom: 0px;
+    left: 0px;  
+    border-radius: 120px;
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid #000000;
+    flex-direction: column;
+    font-family: 'Kanit', sans-serif;
+    background-color: darkorange;
+}
+
+#footer_navs li a{
+    transition: all 0.3s ease 0s;
+}
+
+#footer_navs li a:hover{
+    color: rgb(0, 117, 0);
+    text-transform: uppercase;
+}
+
+
