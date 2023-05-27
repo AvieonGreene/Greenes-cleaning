@@ -5,6 +5,7 @@ header {
     align-items: center;
     padding: 30px 10%;
     box-sizing: border-box;
+
 }
 
 
@@ -22,7 +23,7 @@ transition: all 0.3s ease 0s;
 }
 
 .nav__links li a:hover{
-    color: rgb(0, 117, 0);
+    color: rgb(255, 2, 2);
     text-transform: uppercase;
     }
 
@@ -82,6 +83,7 @@ transition: all 0.3s ease 0s;
 li, a {
 text-decoration: none;
 color: black;
+font-family: DM Serif Display;
 }
 
 footer{
@@ -101,8 +103,45 @@ footer{
 }
 
 #footer_navs li a:hover{
-    color: rgb(0, 117, 0);
+    color: rgb(252, 9, 9);
     text-transform: uppercase;
 }
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Be Vietnam Pro;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-family: Lato;
+}
+
+.Special-offers__button{
+    margin-left: 580px;
+}
+
+h1{
+    font-family:Bebas Neue;
+}
+
+.Special-offers__button:hover{
+    box-shadow: 0 0 5px red,
+    0 0 25px red, 0 0 50px red,
+    0 0 100px red, 0 0 200px red;
+
+}
+
+.Request-Estimate__button:hover{
+    box-shadow: 0 0 5px red,
+    0 0 25px red, 0 0 50px red,
+    0 0 100px red, 0 0 200px red;  
+}
+
+
+
 
 
