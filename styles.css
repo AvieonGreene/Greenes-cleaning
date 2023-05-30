@@ -120,14 +120,15 @@ h2 {
     justify-content: center;
     margin-top: 50px;
     font-family: Be Vietnam Pro;
-    -moz-tab-size: 4;
-    tab-size: 4;
+    text-align: center;
+  
 }
 
 p {
     display: flex;
     justify-content: center;
     font-family: Lato;
+    text-align: center;
 }
 
 .Special-offers__button{
@@ -147,8 +148,8 @@ h1{
 
 .Request-Estimate__button:hover{
     box-shadow: 0 0 5px red,
-    0 0 25px red, 0 0 50px red,
-    0 0 100px red, 0 0 200px red;  
+    0 0 25px  red, 0 0 50px  red,
+    0 0 100px  red, 0 0 200px  red;  
 }
 
 img {
