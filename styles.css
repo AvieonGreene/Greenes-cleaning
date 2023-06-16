@@ -81,6 +81,7 @@ transition: all 0.3s ease 0s;
     justify-content: space-evenly;
     padding-bottom: 5px;
     list-style: none;
+    
 }
 
 li, a {
@@ -157,6 +158,8 @@ img {
     max-width: 15%;
     margin-left: 535px;
 }
+
+
     
 
 
