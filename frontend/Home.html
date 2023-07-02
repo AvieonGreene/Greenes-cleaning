@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>Greene's Cleaning</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/frontend/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital@0;1&family=Bebas+Neue&
+ family=DM+Serif+Display:ital@0;1&family=Lato:wght@300;
+ 400;700&family=Lilita+One&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<body>
+
+    <header>
+        <h1 class="Title">Greene's Cleaning Service</h1>
+
+        <nav>
+            <ul  id="header_navs" class="nav__links">
+                <li><a href="">Our Services</a></li>
+               <li><a href="">About us</a></li> 
+                <li><a href="">Why us</a></li>
+                <li><a href="">Cleaning Tips</a></li>
+                </ul>   
+         </nav>
+
+
+         <h3 class="Phone_number">(502)781-8896</h3>
+    </header>
+
+    
+        <a href="./" class="Request-Estimate__button">Request Estimate!</a>
+    
+
+    <section>
+        <div>
+            <h2>Keep a clean and healthy enviornment <br>with our enhanced disinfection services.</h2>
+            <p>Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. 
+                Ut <br>enim ad minim veniam, quis 
+                nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea 
+                commodo consequat. Duis aute 
+                irure dolor<br> in reprehenderit in 
+                voluptate velit esse cillum dolore 
+                eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat 
+                non proident, sunt <br>in culpa qui 
+                officia deserunt mollit anim id 
+                est laborum.</p>
+                
+        </div>
+        <img  src="/frontend/Images/cleaning Gloves.jpg" alt="Logo">
+        
+    </section>
+
+    <section>
+        <div>
+            <h2>Keep a clean and healthy enviornment  <br>with our enhanced disinfection services.</h2>
+            <p>Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. 
+                Ut <br>enim ad minim veniam, quis 
+                nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea 
+                commodo consequat. Duis aute 
+                irure dolor <br>in reprehenderit in 
+                voluptate velit esse cillum dolore 
+                eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat 
+                non proident, sunt <br>in culpa qui 
+                officia deserunt mollit anim id 
+                est laborum.</p>
+        </div>
+        <img  src="/frontend/Images/Clean Enviornment.jpg" alt="Logo">
+    </section>
+
+    <section>
+        <div>
+            <h2>Special offers that <br>help you enjoy life better.</h2>
+            <p>Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. 
+                Ut <br>enim ad minim veniam, quis 
+                nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea 
+                commodo consequat. Duis aute 
+                irure dolor <br>in reprehenderit in 
+                voluptate velit esse cillum dolore 
+                eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat 
+                non proident, sunt <br>in culpa qui 
+                officia deserunt mollit anim id 
+                est laborum.</p></p>
+                
+        </div>
+        <a href="./" class="Special-offers__button">Click Me!</a>
+    </section>
+
+    
+    <section>
+        <div>
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. 
+                Ut <br>enim ad minim veniam, quis 
+                nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea 
+                commodo consequat. Duis aute 
+                irure dolor <br>in reprehenderit in 
+                voluptate velit esse cillum dolore 
+                eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat 
+                non proident, sunt <br>in culpa qui 
+                officia deserunt mollit anim id 
+                est laborum.</p></p>
+        </div>
+        <img  src="/frontend/Images/Greene's_Cleaning_Service.jpg" alt="Logo">
+    </section>
+
+    <section>  
+        
+        <h2>Need your<br> property cleaned quick ?</h2>
+        <p>Lorem ipsum dolor sit amet, 
+            consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua. 
+            Ut <br>enim ad minim veniam, quis 
+            nostrud exercitation ullamco 
+            laboris nisi ut aliquip ex ea 
+            commodo consequat. Duis aute 
+            irure dolor <br>in reprehenderit in 
+            voluptate velit esse cillum dolore 
+            eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat 
+            non proident, sunt <br>in culpa qui 
+            officia deserunt mollit anim id 
+            est laborum.</p>
+
+    <canvas id="myChart"></canvas>
+
+    <script>
+        const xValues = ["Greene's Cleaning", "Marry Maids", "Maid Pro", "U-Clean", "local Cleaners"];
+        const yValues = [40, 45, 49, 50,50];
+        const barColors = ["red", "green","blue","orange","brown"];
+        
+        new Chart("myChart", {
+          type: "bar",
+          data: {
+            labels: xValues,
+            datasets: [{
+              backgroundColor: barColors,
+              data: yValues
+            }]
+          },
+          options: {
+            legend: {display: false},
+            title: {
+              display: true,
+              text: "Amount of time cleaning in 2023"
+            }
+          }
+        });
+        </script>
+        </section>
+
+    <footer class="footer">
+
+
+       <div class="buisness_info">
+        <h3>Greene's Cleaning Service.</h3>
+        <h3 class="Phone_number">(502)781-8896</h3>
+      </div>
+
+    
+        <div class="wrapper">
+            <div class="button">
+                    <i class="bi bi-facebook"></i>
+                    </div>
+                </div>
+
+
+        <div class="wrapper">
+            <div class="button">
+                    <i class="bi bi-twitter"></i>
+                    </div>
+                </div>
+                
+
+
+        <div class="wrapper">
+            <div class="button">
+                    <i class="bi bi-instagram"></i>
+                    </div>
+                </div>
+                
+
+
+        <div class="wrapper">
+            <div class="button">
+                    <i class="bi bi-youtube"></i>
+                    </div>
+                </div>
+                
+
+
+        <div class="wrapper">
+            <div class="button">
+                    <i class="bi bi-pinterest"></i>
+                    </div>
+                </div>
+               
+
+             <div class="wrapper">
+            <div class="button">
+                    <i class="bi bi-tiktok"></i>
+                    </div>
+                </div>
+            
+
+         
+        <nav>
+            <ul id="footer_navs">
+                <li><a href="#">Our Services</a></li>
+               <li><a href="#">About Us</a></li> 
+                <li><a href="#">Why Us</a></li>
+                <li><a href="#">Cleaning Tips</a></li>
+                </ul>
+         </nav>
+         
+       
+
+    
+    <p class="footer_copyright">Copyright 2023, All rights reserved.</p>
+    
+
+    </footer>
+    
+</body>
+</html>
