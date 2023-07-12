@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: darkorange;
+    background-color: #606c38;
     align-items: center;
     padding: 30px 10%;
     box-sizing: border-box;
@@ -13,22 +13,26 @@ header {
 
 .nav__links{
     list-style: none;
+ 
 }
 
 .nav__links li {
     display: inline-block;
     padding: 0px 20px;
+
 }
 
 .nav__links li a{
 transition: all 0.3s ease 0s;
+border-bottom: 3px solid #3a5a40;
+padding-bottom: 5px;
 }
 
 .nav__links li a:hover{
     color:black;
-    border-radius: 5px;
+    border-radius: 55px;
     border: none;
-    background-color: yellow;
+    background-color: #3a5a40;
     padding: 9px 25px;
     }
 
@@ -39,7 +43,7 @@ transition: all 0.3s ease 0s;
 
     .Request-Estimate__button{
         padding: 9px 25px;
-        background-color: red;
+        background-color: #3a5a40;
         border: none;
         border-radius: 5px;
         cursor: pointer;
@@ -48,7 +52,7 @@ transition: all 0.3s ease 0s;
 
     .Special-offers__button{
         padding: 9px 25px;
-        background-color: red;
+        background-color: #3a5a40;
         border: none;
         border-radius: 5px;
         cursor: pointer;
@@ -88,8 +92,9 @@ transition: all 0.3s ease 0s;
 
 li, a {
 text-decoration: none;
-color: black;
+color: #84a98c;
 font-family: DM Serif Display;
+
 }
 
 footer{
@@ -98,7 +103,7 @@ footer{
     border-top: 1px solid #000000;
     flex-direction: column;
     font-family: 'Kanit', sans-serif;
-    background-color: darkorange;
+    background-color: #606c38;
     width: 100%;
     padding-top: 0;
     padding-bottom: 10px;
@@ -107,6 +112,8 @@ footer{
 
 #footer_navs li a{
     transition: all 0.3s ease 0s;
+    border-bottom: 3px solid #3a5a40;
+    padding-bottom: 5px;
 }
 
 #footer_navs li a:hover{
@@ -114,7 +121,7 @@ footer{
     color:black;
     border-radius: 55px;
     border: none;
-    background-color: yellow;
+    background-color: #3a5a40;
     padding: 9px 25px;
     
 }
@@ -125,6 +132,7 @@ h2 {
     margin-top: 50px;
     font-family: Be Vietnam Pro;
     text-align: center;
+    
   
 }
 
@@ -141,20 +149,21 @@ p {
 
 h1{
     font-family:Bebas Neue;
-    text-shadow: 5px 5px 5px #ff0000;
+    text-shadow: 10px 10px 5px #283618;
+    color: #84a98c;
 }
 
 .Special-offers__button:hover{
-    box-shadow: 0 0 5px #ff0000,
-    0 0 25px red, 0 0 50px red,
-    0 0 100px red, 0 0 200px red;
+    box-shadow: 0 0 5px #3a5a40,
+    0 0 25px #3a5a40, 0 0 50px #3a5a40,
+    0 0 100px #3a5a40, 0 0 200px #3a5a40;
 
 }
 
 .Request-Estimate__button:hover{
-    box-shadow: 0 0 5px red,
-    0 0 25px  red, 0 0 50px  red,
-    0 0 100px  red, 0 0 200px  red;  
+    box-shadow: 0 0 5px #3a5a40,
+    0 0 25px  #3a5a40, 0 0 50px  #3a5a40,
+    0 0 100px  #3a5a40, 0 0 200px #3a5a40;  
 }
 
 img {
@@ -174,9 +183,10 @@ canvas ,#myChart {
 
 .Phone_number {
     border: 15px;
-    background-color: #ff0000;
-    border-radius: 10px;
-    padding: 5px 5px 5px;
+    background-color: #3a5a40;
+    border-radius: 55px;
+    padding: 10px 15px 10px;
+    color: #000000;
 }
 
 form {
@@ -201,6 +211,16 @@ input {
 
 #footer_number {
     margin-top: 50px;
+}
+
+h2{
+    color: #606c38;
+
+    
+}
+
+h4{
+    margin-top: 70px;
 }
 
 
