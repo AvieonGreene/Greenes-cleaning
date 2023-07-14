@@ -193,7 +193,12 @@ form {
     position: relative;
     overflow: hidden;
     padding-bottom: 50px;
-    margin-left: 520px;
+    background-color: #3a5a40;
+    border-radius: 25px;
+    padding: 25px;
+    margin-bottom: 85px;
+   
+   
 }
 
 label {
@@ -222,6 +227,31 @@ h2{
 h4{
     margin-top: 70px;
 }
+
+.form_wrapper {
+    display: flex;
+    justify-content: center;
+} 
+
+#First_Name_err {
+    color: black;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #606c38;
+    border-radius: 10px;
+    padding: 15px 15px 10px;
+    font-family: Be Vietnam Pro;
+
+}
+
+.submit {
+    background-color: #606c38;
+    border-radius: 15px;
+}
+
+
+
+
 
 
 
