@@ -1,22 +1,27 @@
+const fname = document.getElementById('fname');
+const lname = document.getElementById('lname');
+const loginform = document.getElementById('login-form') 
+const First_Name_err = document.getElementById('First_Name_err');
 
-const xValues = ["Greene's Cleaning", "Marry Maids", "Maid Pro", "U-Clean", "local Cleaners"];
-const yValues = [40, 45, 49, 50,50];
-const barColors = ["red", "green","blue","orange","brown"];
+loginform.addEventListener("submit", (e) => {
+  e.preventDefault();
+  
+  const errors = [];
 
-new Chart("myChart", {
-  type: "bar",
-  data: {
-    labels: xValues,
-    datasets: [{
-      backgroundColor: barColors,
-      data: yValues
-    }]
-  },
-  options: {
-    legend: {display: false},
-    title: {
-      display: true,
-      text: "World Wine Production 2018"
-    }
+  if(fname.value.trim() === ""){
+    errors.push("Fist name required")
+
   }
-});
+
+  if(lname.value.trim() === ""){
+    errors.push("Last name required")
+
+  }
+
+  if(errors.length > 0){
+    
+    First_Name_err.innerHTML = errors.join(', ');
+  }
+
+
+})
