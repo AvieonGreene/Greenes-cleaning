@@ -132,7 +132,9 @@ h2 {
     margin-top: 50px;
     font-family: Be Vietnam Pro;
     text-align: center;
-    
+ 
+
+
   
 }
 
@@ -244,10 +246,63 @@ h4{
 
 }
 
-.submit {
-    background-color: #606c38;
-    border-radius: 15px;
+.container {
+    padding: 55px 55px 55px;
+    border: 0px solid #283618;
+    margin-bottom: 55px;
+    position: relative;
+    transform-style: preserve-3d;
+    background-color: #3a5a40;
 }
+
+.container::before {
+    content: "";
+    position: absolute;	
+    inset: 0px;
+    background: conic-gradient(from 90deg at 40% -25%, #ffd700, #f79d03, #ee6907, #e6390a, #de0d0d, #d61039, #cf1261, #c71585, #cf1261, #d61039, #de0d0d, #ee6907, #f79d03, #ffd700, #ffd700, #ffd700);
+    filter: blur(10px);
+    transform: translate3d(0px,0px,-1px);
+    clip-path: polygon(-100vmax -100vmax,100vmax -100vmax,100vmax 100vmax,-100vmax 100vmax,-100vmax -100vmax,0 0,0 100%,100% 100%,100% 0,0 0);
+    pointer-events: none;
+  }
+
+  .container button {
+    border: 1px solid #000000;;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2em;
+    padding: 0.8em 2em;
+    border-radius: 2em;
+    background-color: #606c38;
+    color: #000000;
+    cursor: pointer;
+  }
+
+
+  .container img {
+    display: block;
+    height: 25em;
+    max-width: 80%;
+    margin: 0 auto 1em auto;
+  }
+
+  .container h3 {
+    display: block;
+    font-size: 1em;
+    margin: 0.5em auto 2em auto;
+    width: 70%;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    letter-spacing:  0.03;
+
+  }
+
+   .container h2 {
+    color: #000000;
+  }
+
 
 
 
