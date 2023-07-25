@@ -305,6 +305,110 @@ h4{
 
 
 
+  @media screen and (max-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        background-color: #606c38;
+        align-items: center;
+        padding: 30px 10%;
+        box-sizing: border-box;
+        padding-left: 55px;
+        font-size: 10px;
+    }
+
+    .nav__links li {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-left: 25px;
+    
+    }
+
+    .Request-Estimate__button{
+        margin-left: 200px;
+      }
+  
+      .Phone_number {
+     display: none;
+    }
+
+    img {
+        border-radius: 8px;
+        max-width: 20%;
+        margin-left: 235px;
+    }
+
+    .Special-offers__button{
+        margin-left: 225px;
+    }
+
+    canvas ,#myChart {
+        margin-left: 5px;
+        padding-bottom: 50px;
+    }
+
+    .wrapper {
+        display: inline-block;
+        position: relative;
+        left: 32%;
+        margin-left: -15px;
+        padding: 0px 15px;
+      }
+  }
+
+  @media screen and (max-width: 750px){
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        background-color: #606c38;
+        align-items: center;
+        padding: 30px 10%;
+        box-sizing: border-box;
+        padding-left: 55px;
+        font-size: 10px;
+    }
+
+    .nav__links li {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-left: 25px;
+    
+    }
+
+    .Request-Estimate__button{
+        margin-left: 265px;
+      }
+  
+      .Phone_number {
+     display: none;
+    }
+
+    img {
+        border-radius: 8px;
+        max-width: 20%;
+        margin-left: 280px;
+    }
+
+    .Special-offers__button{
+        margin-left: 300px;
+    }
+
+    canvas ,#myChart {
+        margin-left: 55px;
+        padding-bottom: 50px;
+    }
+
+    .wrapper {
+        display: inline-block;
+        position: relative;
+        left: 32%;
+        margin-left: -15px;
+        padding: 0px 15px;
+      }
+
+  }
+
 
 
 
